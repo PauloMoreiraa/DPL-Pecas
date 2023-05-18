@@ -20,6 +20,11 @@
   color: #333;
   text-align: justify;
 }
+@media (max-width: 800px) {
+  #sobre .parte-1-sobre p {
+    font-size: 0.8em;
+  }
+}
 #sobre .filiais {
   width: 100%;
   background-color: transparent;

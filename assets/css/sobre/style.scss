@@ -8,8 +8,6 @@
 
     .parte-1-sobre{
         width: 100%;
-        
-
         span{
             width: 100%;
             text-align: center;
@@ -20,6 +18,10 @@
             font-size: 1.2em;
             color: #333;
             text-align: justify;
+
+            @media(max-width: 800px){
+                font-size: .8em;
+              }
         }
     }
     .filiais{
@@ -34,6 +36,7 @@
 
         @media(max-width: 1000px){
             justify-content: center;
+            
         }
 
         .card{
