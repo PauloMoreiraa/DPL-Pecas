@@ -1,0 +1,121 @@
+#marcas {
+  padding: 0 10%;
+  width: 100%;
+}
+#marcas #trabalhamos-com {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.slider-inicio .slide {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.slider-inicio .slide .slide-padrao {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 10%;
+}
+.slider-inicio .slide .slide-padrao .texto-slide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.slider-inicio .slide .slide-padrao .texto-slide span {
+  font-size: 3em;
+  color: #fff;
+}
+.slider-inicio .slide .slide-padrao .texto-slide a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #e64441;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.slider-inicio .slide #slide-1 {
+  background-image: url("../../img/andrik-langfield-3TdQDCzO27Q-unsplash.jpg");
+  background-position: bottom;
+  -webkit-backdrop-filter: blur(14px);
+          backdrop-filter: blur(14px);
+}
+.slider-inicio .slide #slide-2 {
+  background-image: url("../../img/damian-patkowski-T-LfvX-7IVg-unsplash.jpg");
+}
+.slider-inicio .slide #slide-3 {
+  background-image: url("../../img/neom-s3leOixsIX0-unsplash.jpg");
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0 6px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #ff0000;
+  cursor: pointer;
+  width: 8px;
+  height: 8px;
+}
+
+.slick-dots li button:before {
+  content: none;
+  cursor: pointer;
+}
+
+.slider-marcas {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: grab;
+  width: 100%;
+  height: 20vh;
+  background-color: transparent;
+}
+.slider-marcas .slide-marca {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: transparent;
+  cursor: grab;
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  background-color: #fff;
+  gap: 10px;
+  border-radius: 15px;
+}
+.slider-marcas .slide-marca img {
+  width: 100px;
+}/*# sourceMappingURL=style.css.map */

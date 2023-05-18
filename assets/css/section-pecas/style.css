@@ -1,0 +1,115 @@
+#pecas {
+  padding: 0 10%;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+}
+@media (max-width: 840px) {
+  #pecas {
+    flex-direction: column;
+  }
+}
+#pecas .parte-1-pecas {
+  width: 40%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+@media (max-width: 840px) {
+  #pecas .parte-1-pecas {
+    height: 30%;
+    width: 100%;
+  }
+}
+#pecas .parte-1-pecas .carro-ft {
+  background-image: url("../../img/pecas/c-joyful-heFTscwGDCA-unsplash.jpg");
+  background-size: cover;
+  height: 80%;
+  width: 80%;
+  transition: transform 0.3s ease;
+}
+@media (max-width: 840px) {
+  #pecas .parte-1-pecas .carro-ft {
+    width: 100%;
+    height: 50%;
+    background-position: top center;
+  }
+}
+#pecas .parte-2-pecas {
+  width: 60%;
+  background-color: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+@media (max-width: 840px) {
+  #pecas .parte-2-pecas {
+    height: 70%;
+    width: 100%;
+  }
+}
+#pecas p {
+  font-size: 1.1em;
+  padding-bottom: 60px;
+  color: #555;
+}
+#pecas form {
+  display: flex;
+}
+#pecas form input {
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  font-size: 1em;
+  border-radius: 12px 0 0 12px;
+}
+#pecas form input:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2117647059);
+}
+#pecas form button {
+  padding: 8px;
+  border: none;
+  background-color: #e64441;
+  cursor: pointer;
+  font-size: 1em;
+  z-index: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 0 12px 12px 0;
+  transition: 0.4s;
+}
+#pecas form button:hover {
+  background-color: transparent;
+  color: #e64441;
+  background-color: #f7cccb;
+  transition: 0.4s;
+}
+
+.btn-catalogo {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #e64441;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 1.2em;
+  transition: 0.4s;
+  border-radius: 12px;
+}
+.btn-catalogo:hover {
+  background-color: transparent;
+  color: #e64441;
+  background-color: #f7cccb;
+  transition: 0.4s;
+}/*# sourceMappingURL=style.css.map */

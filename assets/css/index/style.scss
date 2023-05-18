@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #333;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #c82825;   
+    border-radius: 20px;   
+  }
+
+  .whatsapp{
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    background-color: transparent;
+    bottom: 0;
+    right: 0;   
+    font-size: 3em;
+    z-index: 9999;
+    a{
+        color: #fff;
+        background-color: rgb(37, 209, 37);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+       
+    }
+  }
+
+  .titulo-box{
+    padding-bottom: 20px;
+
+    #titulo-pecas{
+        font-size: 3em;
+        font-weight: 900;
+
+        @media(max-width:840px){
+            font-size: 2.3em;
+        }
+
+        b{
+            color: #e64441;
+        }
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 7px;
+        background-color: #e64441;
+        margin-top: 55px;
+
+        @media(max-width:840px){
+            margin-top: 39px;
+            height: 4px;
+            width: 80px;
+        }
+    }
+  }
