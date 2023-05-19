@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/slider/style.css">
     <link rel="stylesheet" href="assets/css/section-pecas/style.css">
     <link rel="stylesheet" href="assets/css/sobre/style.css">
+    <link rel="stylesheet" href="assets/css/footer/style.css">
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -34,7 +35,7 @@
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#pecas">Catálogo</a></li>
                 <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#cadastre">Cadastre-se</a></li>
+                <li><a href="registrar.php">Cadastre-se</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -47,8 +48,7 @@
                 <div class="texto-slide">
                     <span>As melhores peças do mercado automotivo, garanta já!</span>
                     <a href="#pecas">Ver Catálogo</a>
-                  </div>
-                  
+                </div>
               </div>
             </div>
             <div class="slide">
@@ -154,6 +154,53 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="titulo-redes-sociais">
+            <span>SIGA-NOS</span>
+        </div>
+        <div class="redes-sociais">
+                <a href="#" target="_blank"><div class="facebook"></div></a>
+                <a href="#" target="_blank"><div class="instagram"></div></a>
+            </div>
+        <div class="colunas">
+            
+            <div class="coluna-1">
+                <h1>LOGO</h1>
+            </div>
+            <div class="coluna-2">
+                <ul>
+                    <li>NAVEGUE</li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pecas">Catálogo</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="registrar.php">Cadastre-se</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="coluna-3">
+                <span>Filial 1 - Presidente Prudente / SP</span>
+                <span>Rua Sebastião de Paula Freitas, 699</span>
+                <span>Jardim Bela Daria</span>
+                <span>(18) 2101-9100</span>
+            </div>
+            <div class="coluna-4">
+                <span>Filial 2 - Curitiba / PR</span>
+                <span>Rua das Carmelitas, 1750</span>
+                <span>Boqueirão</span>
+                <span>(41) 2101-6000</span>
+            </div>
+            <div class="coluna-5">
+                <span>Matriz - Toledo / PR</span>
+                    <span>Av. Parigot de Souza, 1420</span>
+                    <span>Centro</span>
+                    <span>(45) 2103-2244</span>
+                </div>
+        </div>
+        <div class="copyright">
+            <p>Todos os direitos reservados - DPL Distribuidora de Peças&#174;</p>
+        </div>
+    </footer>
 
 <!--ION ICON-->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

@@ -56,6 +56,12 @@
   color: #fff;
   border-radius: 12px;
   margin-top: 10px;
+  transition: 0.4s;
+}
+.slider-inicio .slide .slide-padrao .texto-slide a:hover {
+  background-color: #f7cccb;
+  color: #e64441;
+  transition: 0.4s;
 }
 .slider-inicio .slide #slide-1 {
   background-image: url("../../img/andrik-langfield-3TdQDCzO27Q-unsplash.jpg");

@@ -4,13 +4,13 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   overflow-x: hidden;
   width: 100%;
   background-color: #f6f6f6;
-  font-family: "Roboto", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -45,6 +45,11 @@ body::-webkit-scrollbar-thumb {
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  transition: 0.4s;
+}
+.whatsapp a:hover {
+  opacity: 0.5;
+  transition: 0.4s;
 }
 
 .titulo-box {

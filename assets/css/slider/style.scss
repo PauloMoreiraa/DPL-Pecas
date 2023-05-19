@@ -60,6 +60,13 @@
                 color: #fff;
                 border-radius: 12px;
                 margin-top: 10px;
+                transition: .4s;
+
+                &:hover{
+                  background-color: #f7cccb;
+                  color: #e64441;
+                  transition: .4s;
+                }
               }
             }
             

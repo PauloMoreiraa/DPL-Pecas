@@ -1,0 +1,119 @@
+footer{
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    background-color: #c82825;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 10%;
+
+    .titulo-redes-sociais{
+        padding-top: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            font-size: 1.1em;
+            font-weight: 900;
+            color: #fff;
+        }
+    }
+
+    .redes-sociais{
+        width: 100%;
+        display: flex;
+        padding-top: 3px;
+        padding-bottom: 2%;
+        align-items: center;
+        justify-content: center;
+
+        a{
+            .facebook, .instagram{
+                background-size: 30px;
+                width: 30px;
+                height: 30px;
+                transition: .4s;
+            }
+            .facebook{
+                background-image: url('../../img/icones/facebook.png');
+                margin-right: 20px;
+               
+
+                &:hover{
+                    background-image: url('../../img/icones/facebookHOVER.png');
+                    transition: .4s;
+                }
+            }
+
+            .instagram{
+                background-image: url('../../img/icones/instagram.png');
+
+                &:hover{
+                    background-image: url('../../img/icones/instagramHOVER.png');
+                    transition: .4s;
+                }
+            }
+
+        }
+    }
+
+    .colunas{
+        display: flex;
+
+        .coluna-1{
+            color: #fff;
+            width: 22%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .coluna-2{
+
+            ul{
+                list-style: none;
+
+                li{
+                    margin-bottom: 10px;
+                    color: #fff;
+
+                    a{
+                        text-decoration: none;
+                        font-size: .9em;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+         .coluna-2, .coluna-3, .coluna-4, .coluna-5{
+            width: 20%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            span{
+                color: #fff;
+                margin-bottom: 10px;
+                font-size: .9em;
+            }
+            
+        }
+    }
+
+    
+
+    .copyright{
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        color: #fff;
+        padding:  2% 0;
+    }
+}
