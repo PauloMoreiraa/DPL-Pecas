@@ -30,8 +30,8 @@
                 <li><a href="index.php#inicio">Início</a></li>
                 <li><a href="index.php#pecas">Catálogo</a></li>
                 <li><a href="index.php#sobre">Sobre Nós</a></li>
-                <li><a href="registrar.php">Cadastre-se</a></li>
                 <li><a href="index.php#contato">Contato</a></li>
+                <li><a href="registrar.php">Cadastre-se</a></li>
             </ul>
         </nav>
     </header>

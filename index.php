@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/slider/style.css">
     <link rel="stylesheet" href="assets/css/section-pecas/style.css">
     <link rel="stylesheet" href="assets/css/sobre/style.css">
+    <link rel="stylesheet" href="assets/css/contato/style.css">
     <link rel="stylesheet" href="assets/css/footer/style.css">
 
     <!--JQuery-->
@@ -35,8 +36,8 @@
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#pecas">Catálogo</a></li>
                 <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="registrar.php">Cadastre-se</a></li>
                 <li><a href="#contato">Contato</a></li>
+                <li><a href="registrar.php">Cadastre-se</a></li>
             </ul>
         </nav>
     </header>
@@ -155,50 +156,103 @@
         </div>
     </section>
 
-    <footer>
-        <div class="titulo-redes-sociais">
-            <span>SIGA-NOS</span>
+    <section id="contato">
+        <div class="banner-contato">
+            <span>Contato</span>
         </div>
-        <div class="redes-sociais">
-                <a href="#" target="_blank"><div class="facebook"></div></a>
-                <a href="#" target="_blank"><div class="instagram"></div></a>
+        <div class="cards-contato">
+            <div class="card-contato">
+                <div class="card-contato">
+                    <div class="icone-contato email"></div>
+                    <div class="box-mobile">
+                        <span class="titulo-contato">Email</span>
+                        <span class="horario-contato">De Segunda à Sexta das 8:00 às 18:00</span>
+                        <span class="prazo-contato">Respondemos em até 72h</span>
+                        <a href="#" class="btn-contato-mobile">Enviar Email</a>
+                    </div>
+                    <a href="#" class="btn-contato">Enviar Email&nbsp;<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
             </div>
-        <div class="colunas">
-            
-            <div class="coluna-1">
+
+            <div class="card-contato">
+                <div class="card-contato">
+                    <div class="icone-contato telefone"></div>
+                    <div class="box-mobile">
+                        <span class="titulo-contato">Telefone/Whatsapp</span>
+                        <span class="horario-contato">De Segunda à Sexta das 8:00 às 18:00</span>
+                        <span class="prazo-contato">Ligue agora ou mande uma mensagem</span>
+                        <a href="#" class="btn-contato-mobile">Enviar Mensagem</a>
+                    </div>
+                    <a href="#" class="btn-contato">Enviar Mensagem&nbsp;<ion-icon class="mensagem" name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+
+            <div class="card-contato">
+                <div class="card-contato">
+                    <div class="icone-contato trabalhe"></div>
+                    <div class="box-mobile">
+                        <span class="titulo-contato">Trabalhe Conosco</span>
+                        <span class="horario-contato">De Segunda à Sexta das 8:00 às 18:00</span>
+                        <span class="prazo-contato">Venha fazer parte da DPL</span>
+                        <a href="#" class="btn-contato-mobile">Enviar Currículo</a>
+                    </div>
+                    
+                    <a href="#" class="btn-contato">Enviar Currículo&nbsp;<ion-icon class="curriculo" name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#inicio">
+        <div class="voltar-topo">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+        </div>
+    </a>
+    
+    <footer>
+        <div class="navegacao">
+            <div class="logo">
                 <h1>LOGO</h1>
             </div>
-            <div class="coluna-2">
-                <ul>
-                    <li>NAVEGUE</li>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#pecas">Catálogo</a></li>
-                    <li><a href="#sobre">Sobre Nós</a></li>
-                    <li><a href="registrar.php">Cadastre-se</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </div>
-            <div class="coluna-3">
-                <span>Filial 1 - Presidente Prudente / SP</span>
-                <span>Rua Sebastião de Paula Freitas, 699</span>
-                <span>Jardim Bela Daria</span>
-                <span>(18) 2101-9100</span>
-            </div>
-            <div class="coluna-4">
-                <span>Filial 2 - Curitiba / PR</span>
-                <span>Rua das Carmelitas, 1750</span>
-                <span>Boqueirão</span>
-                <span>(41) 2101-6000</span>
-            </div>
-            <div class="coluna-5">
-                <span>Matriz - Toledo / PR</span>
-                    <span>Av. Parigot de Souza, 1420</span>
-                    <span>Centro</span>
-                    <span>(45) 2103-2244</span>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#pecas">Catálogo</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="registrar.php">Cadastre-se</a></li>
+            </ul>
+            <div class="redes-sociais">
+                <span>Siga nos</span>
+                <div class="links-redes-sociais">
+                    <a href="#" target="_blank"><div class="instagram"></div></a>
+                    <a href="#" target="_blank"><div class="facebook"></div></a>
+                    <a href="#" target="_blank"><div class="linkedin"></div></a>
                 </div>
+            </div>
         </div>
-        <div class="copyright">
-            <p>Todos os direitos reservados - DPL Distribuidora de Peças&#174;</p>
+
+        <div class="filiais">
+            <div class="box-filiais">
+                <p>Matriz | Toledo - PR</p>
+                <p>Av. Parigot de Souza, 1420</p>
+                <p>Centro</p>
+                <p>(45) 2103-2244</p>
+            </div>
+            <div class="box-filiais">
+                <p>FILIAL 1 | Presidente Prudente - SP</p>
+                <p>Rua Sebastião de Paula Freitas, 699</p>
+                <p>Jd Bela Daria</p>
+                <p>(18) 2101-9100</p>
+            </div>
+            <div class="box-filiais">
+                <p>FILIAL 2 | Curitiba - PR</p>
+                <p>Rua das Carmelitas, 1750</p>
+                <p>Boqueirão</p>
+                <p>(41) 2101-6000</p>
+            </div>
+            <div class="box-filiais">
+                <p id="politica"><ion-icon name="lock-closed"></ion-icon>&nbsp;Polítia de Privacidade </p>
+                <a href="#">Saiba Mais</a>
+            </div>
         </div>
     </footer>
 

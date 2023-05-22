@@ -1,94 +1,142 @@
 footer {
   width: 100%;
   height: auto;
-  min-height: 100px;
+  min-height: 50vh;
   background-color: #c82825;
+  padding: 3% 10%;
   display: flex;
   flex-direction: column;
-  padding: 0% 10%;
 }
-footer .titulo-redes-sociais {
-  padding-top: 2%;
+footer .navegacao {
+  background-color: transparent;
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
-footer .titulo-redes-sociais span {
-  font-size: 1.1em;
-  font-weight: 900;
+@media (max-width: 999px) {
+  footer .navegacao {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+footer .navegacao .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .navegacao ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+@media (max-width: 900px) {
+  footer .navegacao ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+footer .navegacao ul li {
+  text-align: center;
+}
+footer .navegacao ul li a {
+  text-decoration: none;
   color: #fff;
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-weight: 900;
+  transition: 0.4s;
 }
-footer .redes-sociais {
-  width: 100%;
+footer .navegacao ul li a:hover {
+  color: #eee;
+  transition: 0.4s;
+}
+footer .navegacao .redes-sociais {
   display: flex;
-  padding-top: 3px;
-  padding-bottom: 2%;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
-footer .redes-sociais a .facebook, footer .redes-sociais a .instagram {
-  background-size: 30px;
-  width: 30px;
-  height: 30px;
+footer .navegacao .redes-sociais span {
+  color: #fff;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+  padding: 4px;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+footer .navegacao .redes-sociais .links-redes-sociais {
+  display: flex;
+  gap: 10px;
+}
+footer .navegacao .redes-sociais .links-redes-sociais .instagram, footer .navegacao .redes-sociais .links-redes-sociais .facebook, footer .navegacao .redes-sociais .links-redes-sociais .linkedin {
+  background-size: 40px;
+  width: 40px;
+  height: 40px;
   transition: 0.4s;
 }
-footer .redes-sociais a .facebook {
-  background-image: url("../../img/icones/facebook.png");
-  margin-right: 20px;
-}
-footer .redes-sociais a .facebook:hover {
-  background-image: url("../../img/icones/facebookHOVER.png");
+footer .navegacao .redes-sociais .links-redes-sociais .instagram:hover, footer .navegacao .redes-sociais .links-redes-sociais .facebook:hover, footer .navegacao .redes-sociais .links-redes-sociais .linkedin:hover {
   transition: 0.4s;
 }
-footer .redes-sociais a .instagram {
+footer .navegacao .redes-sociais .links-redes-sociais .instagram {
   background-image: url("../../img/icones/instagram.png");
 }
-footer .redes-sociais a .instagram:hover {
+footer .navegacao .redes-sociais .links-redes-sociais .instagram:hover {
   background-image: url("../../img/icones/instagramHOVER.png");
-  transition: 0.4s;
 }
-footer .colunas {
+footer .navegacao .redes-sociais .links-redes-sociais .facebook {
+  background-image: url("../../img/icones/facebook.png");
+}
+footer .navegacao .redes-sociais .links-redes-sociais .facebook:hover {
+  background-image: url("../../img/icones/facebookHOVER.png");
+}
+footer .navegacao .redes-sociais .links-redes-sociais .linkedin {
+  background-image: url("../../img/icones/linkedin.png");
+}
+footer .navegacao .redes-sociais .links-redes-sociais .linkedin:hover {
+  background-image: url("../../img/icones/linkedinHOVER.png");
+}
+footer .filiais {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-footer .colunas .coluna-1 {
-  color: #fff;
-  width: 22%;
+footer .filiais .box-filiais {
+  padding-top: 100px;
+  min-width: 250px;
+  width: 300px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 749px) {
+  footer .filiais .box-filiais {
+    padding-top: 40px;
+  }
+}
+footer .filiais .box-filiais #politica {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-footer .colunas .coluna-2 ul {
-  list-style: none;
+@media (max-width: 749px) {
+  footer .filiais .box-filiais #politica {
+    justify-content: center;
+  }
 }
-footer .colunas .coluna-2 ul li {
-  margin-bottom: 10px;
+footer .filiais .box-filiais p {
   color: #fff;
 }
-footer .colunas .coluna-2 ul li a {
+@media (max-width: 749px) {
+  footer .filiais .box-filiais p {
+    text-align: center;
+  }
+}
+footer .filiais .box-filiais a {
   text-decoration: none;
-  font-size: 0.9em;
-  color: #fff;
+  color: #333;
 }
-footer .colunas .coluna-2, footer .colunas .coluna-3, footer .colunas .coluna-4, footer .colunas .coluna-5 {
-  width: 20%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-footer .colunas .coluna-2 span, footer .colunas .coluna-3 span, footer .colunas .coluna-4 span, footer .colunas .coluna-5 span {
-  color: #fff;
-  margin-bottom: 10px;
-  font-size: 0.9em;
-}
-footer .copyright {
-  margin-top: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  color: #fff;
-  padding: 2% 0;
+@media (max-width: 749px) {
+  footer .filiais .box-filiais a {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

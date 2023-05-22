@@ -63,6 +63,7 @@ header{
             li{
                margin-left: 30px;
                letter-spacing: 2px;
+               text-align: center;
 
                @media(max-width: 820px){
                 margin-left: 0;
@@ -74,6 +75,7 @@ header{
                 text-decoration: none;
                 padding: 8px 20px;
                 border-radius: 4px;
+                text-align: center!important;
 
                 &:hover{
                     transition: .4s;

@@ -1,119 +1,155 @@
 footer{
     width: 100%;
     height: auto;
-    min-height: 100px;
+    min-height: 50vh;
     background-color: #c82825;
+    padding: 3% 10%;
     display: flex;
     flex-direction: column;
-    padding: 0% 10%;
 
-    .titulo-redes-sociais{
-        padding-top: 2%;
+   .navegacao{
+        background-color: transparent;
         width: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: space-between;
 
-        span{
-            font-size: 1.1em;
-            font-weight: 900;
-            color: #fff;
+        @media(max-width: 999px){
+            flex-direction: column;
+            gap: 40px;
         }
-    }
 
-    .redes-sociais{
-        width: 100%;
-        display: flex;
-        padding-top: 3px;
-        padding-bottom: 2%;
-        align-items: center;
-        justify-content: center;
-
-        a{
-            .facebook, .instagram{
-                background-size: 30px;
-                width: 30px;
-                height: 30px;
-                transition: .4s;
-            }
-            .facebook{
-                background-image: url('../../img/icones/facebook.png');
-                margin-right: 20px;
-               
-
-                &:hover{
-                    background-image: url('../../img/icones/facebookHOVER.png');
-                    transition: .4s;
-                }
-            }
-
-            .instagram{
-                background-image: url('../../img/icones/instagram.png');
-
-                &:hover{
-                    background-image: url('../../img/icones/instagramHOVER.png');
-                    transition: .4s;
-                }
-            }
-
-        }
-    }
-
-    .colunas{
-        display: flex;
-
-        .coluna-1{
-            color: #fff;
-            width: 22%;
+        .logo{
             display: flex;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
         }
 
-        .coluna-2{
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 60px;
 
-            ul{
-                list-style: none;
+            @media(max-width: 900px){
+                flex-direction: column;
+                gap: 10px;
+            }
 
-                li{
-                    margin-bottom: 10px;
+            li{
+                text-align: center;
+
+                a{
+                    text-decoration: none;
                     color: #fff;
+                    font-size: 1em;
+                    letter-spacing: 2px;
+                    font-weight: 900;
+                    transition: .4s;
+                    
 
-                    a{
-                        text-decoration: none;
-                        font-size: .9em;
-                        color: #fff;
+                    &:hover{
+                        color: #eee;
+                        transition: .4s;
                     }
                 }
             }
         }
-
-         .coluna-2, .coluna-3, .coluna-4, .coluna-5{
-            width: 20%;
-            height: auto;
+        .redes-sociais{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
 
             span{
                 color: #fff;
-                margin-bottom: 10px;
-                font-size: .9em;
+                width: 100%;
+                background-color: transparent;
+                text-align: center;
+                padding: 4px;
+                font-size: 1.3em;
+                font-weight: 900;
             }
-            
+
+            .links-redes-sociais{
+                display: flex;
+                gap: 10px;
+
+                .instagram, .facebook, .linkedin{
+                    background-size: 40px;
+                    width: 40px;
+                    height: 40px;
+                    transition: .4s;
+
+                    &:hover{
+                        transition: .4s;
+                    }
+                }
+
+                .instagram{
+                    background-image: url('../../img/icones/instagram.png');
+
+                    &:hover{
+                        background-image: url('../../img/icones/instagramHOVER.png');
+                    }
+                }
+                .facebook{
+                    background-image: url('../../img/icones/facebook.png');
+
+                    &:hover{
+                        background-image: url('../../img/icones/facebookHOVER.png');
+                    }
+                }
+                .linkedin{
+                    background-image: url('../../img/icones/linkedin.png');
+
+                    &:hover{
+                        background-image: url('../../img/icones/linkedinHOVER.png');
+                    }
+                }
+            }
+
         }
-    }
-
-    
-
-    .copyright{
-        margin-top: 5%;
+   }
+   .filiais{
         display: flex;
-        align-items: center;
+        flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
-        color: #fff;
-        padding:  2% 0;
-    }
+       
+       
+        .box-filiais{
+            padding-top: 100px;
+            min-width: 250px;
+            width: 300px;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            @media(max-width: 749px){
+                padding-top: 40px;
+            }
+
+            #politica{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                @media(max-width: 749px){
+                    justify-content: center;
+                }
+            }
+
+
+            p{
+                color: #fff;
+
+                @media(max-width: 749px){
+                    text-align: center;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: #333;
+
+                @media(max-width: 749px){
+                    text-align: center;
+                }
+            }
+        }
+   }
 }
